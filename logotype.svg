@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg id="loader" class="load" width="100" height="50" version="1.1" viewBox="0 0 100 50" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" style="position:absolute;bottom:20vh;left:0;right:0;margin:auto;z-index:999;filter:drop-shadow(-15px 22px 0px rgba(0,0,0,.09))"><defs><style>
+@keyframes golr1{from{transform:translateX(0)}to{transform:translateX(-40px)}}
+@keyframes golr2{from{transform:translateX(0)}to{transform:translateX(-32px)}}
+@keyframes golr3{from{transform:translateX(0)}to{transform:translateX(-24px)}}
+@keyframes golr4{from{transform:translateX(0)}to{transform:translateX(-22px)}}
+@keyframes golr5{from{transform:translateX(0)}to{transform:translateX(-16px)}}
+@keyframes golr6{from{transform:translateX(0)}to{transform:translateX(-8px)}}
+.acs circle,.acs rect{position:relative;animation:.5s ease-in-out infinite alternate}
+#acs1{animation-name:golr1}
+#acs2{animation-name:golr2}
+#acs3{animation-name:golr3}
+#acs4{animation-name:golr4}
+#acs5{animation-name:golr5}
+#acs6{animation-name:golr6}
+</style>
+</defs>
+<g class="acs" fill="#fff" stroke-width="2">
+<g stroke="#666">
+<circle id="acs1" cx="68.5" cy="21.5" r="17.5"></circle>
+<circle id="acs2" cx="64.5" cy="21.5" r="15.5"></circle>
+<circle id="acs3" cx="60.5" cy="21.5" r="13.5"></circle>
+<rect id="acs4" x="56" y="19" width="5" height="28" ry=".875"></rect>
+<circle id="acs5" cx="56.5" cy="21.5" r="11.5"></circle>
+<circle id="acs6" cx="52.5" cy="21.5" r="9.5"></circle>
+</g>
+<circle cx="48.5" cy="21.5" r="7.5" stroke="#c66"></circle>
+</g>
+</svg>
